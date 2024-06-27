@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: #B3BFB8;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.LogInController">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="1000.0" style="-fx-background-color: #3C493F;">
+         <children>
+            <Label fx:id="ImeKlijenta" alignment="CENTER" contentDisplay="CENTER" layoutX="80.0" layoutY="58.0" prefHeight="84.0" prefWidth="268.0" text="KLIJENT" textAlignment="CENTER" textFill="#ebebeb" wrapText="true">
+               <font>
+                  <Font name="Roboto Bold" size="29.0" />
+               </font>
+            </Label>
+            <Label fx:id="Prezime" alignment="CENTER" contentDisplay="CENTER" layoutX="348.0" layoutY="58.0" prefHeight="84.0" prefWidth="268.0" text="KLIJENT" textAlignment="CENTER" textFill="#ebebeb" wrapText="true">
+               <font>
+                  <Font name="Roboto Bold" size="29.0" />
+               </font>
+            </Label>
+            <Label fx:id="KorisnickoIme" alignment="CENTER" contentDisplay="CENTER" layoutX="616.0" layoutY="58.0" prefHeight="84.0" prefWidth="268.0" text="KLIJENT" textAlignment="CENTER" textFill="#ebebeb" wrapText="true">
+               <font>
+                  <Font name="Roboto Bold" size="29.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button layoutX="34.0" layoutY="222.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="179.0" style="-fx-background-color: #3C493F;" text="Rezervisi novi izlet/putovanje" textAlignment="CENTER" textFill="#f5f5f5" wrapText="true">
+         <font>
+            <Font name="Roboto Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="34.0" layoutY="323.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="179.0" style="-fx-background-color: #3C493F;" text="Pogledaj listu vec rezervisanih" textAlignment="CENTER" textFill="#f5f5f5" wrapText="true">
+         <font>
+            <Font name="Roboto Bold" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
